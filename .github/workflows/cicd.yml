@@ -69,3 +69,4 @@ jobs:
           containerAppName: devops-lab-app
           resourceGroup: devops-lab-rg
           imageToDeploy: ghcr.io/happysteve81/devops-lab:${{ needs.build.outputs.version }}
+
