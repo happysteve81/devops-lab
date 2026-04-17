@@ -30,4 +30,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/happysteve81/devops-lab:latest
+          tags: ghcr.io/${{ github.actor }}/devops-lab:latest
